@@ -1,0 +1,33 @@
+body{
+   background-image:url("cost.jpg");
+   background-color: black;
+}
+.bg-custom{
+    background-color: #101021;
+opacity: 0.9;
+}
+.fuel-cost{
+    display: none;
+    background-color: rgb(72, 80, 50);
+    border-radius: 5px;
+}
+.suggestion-item{
+   
+    color:white;
+
+    cursor: pointer;
+    padding:5px 6px;
+}
+.suggestion{
+    background-color:#193049;
+    border-radius: 5px;
+    z-index: 1;
+    position: absolute;
+}
+.suggestion-item:hover{
+    background-color:#ffc107;
+    border-radius: 5px;
+}
+.img{
+    fill: aliceblue;
+}
